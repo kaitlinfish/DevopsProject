@@ -1,7 +1,6 @@
 // Import the functions to be tested
 const { loadGame, play, startRepeat, endGame, showResult } = require('./script');
 
-// Mocking document.getElementById function
 document.getElementById = jest.fn();
 
 describe('loadGame', () => {
