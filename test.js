@@ -1,4 +1,5 @@
 // Import the functions to be tested
+//test
 const { loadGame, play, startRepeat, endGame, showResult } = require('./script');
 
 document.getElementById = jest.fn();
